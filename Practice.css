@@ -15,7 +15,7 @@ body{
     top: 0;
     width: 100%;
     z-index: 1000;
-    background-color: rgba(255, 248, 220, 0.501);
+    background-color: rgba(99, 96, 88, 0.864);
 
 }
 .nav-links{
@@ -23,13 +23,16 @@ body{
     list-style: none;
 
 }
+.logo h2{
+    color: azure;
+}
 .nav-links li, .logo{
     margin-left: 20px;
     margin-right:20px
 }
 .nav-links a{
     text-decoration: none;
-    color: black;
+    color: rgba(233, 219, 219, 0.865);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
     transition-duration: 0.5s;
@@ -93,13 +96,13 @@ body{
     transition: 0.3s ease-in ;
 }
 .mid{
-    background-color: cornsilk;
+    background-color:rgba(90, 88, 84, 0.492);
     text-align: center;
 }
 .mid h1{
     font-size: 46px;
     padding-top: 20px;
-    margin: 20px;
+    margin: 0;
 }
 .mid .p{
     font-size: 25px;
@@ -145,4 +148,44 @@ box-shadow: 0px -20px 5px 7px rgba(0, 0, 0, 0.23), inset -1px 20px 0px 0px rgba(
 }
 .grid-item h2{
     margin-bottom: 10px;
+}
+
+.story{
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 100%;
+    padding: 10px 10px 10px 10px;
+    justify-content: center;
+}
+
+.right{
+    padding: 30px;
+    height: 100vh;
+    margin: 40px 0 20px 50px;
+}
+
+.right img{
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.left{
+    padding-left: 45px;
+    padding-top: 9em;
+    width: 600px;
+}
+
+.left h1{
+    color: bisque;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.left p{
+    font-size: 20px;
+    line-height: 2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
